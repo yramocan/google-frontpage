@@ -89,7 +89,15 @@ center {
 #google-logo {
   max-height: 92px;
   max-width: auto;
-  margin-top: 143px;
+  margin-top: 50px;
+}
+
+@media screen and (min-width: 529px) {
+  #google-logo {
+    max-height: 92px;
+    max-width: auto;
+    margin-top: 143px;
+  }
 }
 
 #search {
