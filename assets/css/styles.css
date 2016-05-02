@@ -89,7 +89,7 @@ center {
 
 #search {
   display: block;
-  max-width: 37%;
+  max-width: 600px;
   margin-top: 2em;
   margin-left: auto;
   margin-right: auto;
@@ -100,7 +100,7 @@ center {
   padding: 10px 10px;
   font-size: 16px;
   border: 1px solid #ddd;
-  background: url('../img/google_mic.png') no-repeat scroll 98% 7px;
+  background: url('../img/google_mic.png') no-repeat scroll 99% 7px;
   background-size: 24px 24px;
 }
 
