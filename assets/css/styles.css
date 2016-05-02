@@ -11,6 +11,11 @@ html {
 }
 
 body {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.container {
   padding: 0 5px;
 }
 
@@ -89,7 +94,7 @@ center {
 
 #search {
   display: block;
-  max-width: 600px;
+  max-width: 500px;
   margin-top: 2em;
   margin-left: auto;
   margin-right: auto;
@@ -137,6 +142,39 @@ center {
     content: "";
     clear: both;
     display: block;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 40px;
+  color: #555;
+  background-color: #f2f2f2;
+  border: 1px solid #ddd;
+  padding: 0 !important;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer ul li {
+  display: inline;
+  margin-right: 2em;
+}
+
+footer ul li:hover {
+  text-decoration: underline;
+}
+
+.left-footer-menu {
+  float: left;
+}
+
+.right-footer-menu {
+  float: right;
 }
 
 /* Column Widths */
